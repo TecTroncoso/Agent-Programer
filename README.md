@@ -91,8 +91,8 @@ python main.py "Crea una función que calcule el factorial"
 
 ```mermaid
 graph TD
-    User((Usuario)) --> |"1. Tarea"| Orchestrator[Orquestador\n(Qwen)]
-    Orchestrator --> |"2. Especificaciones"| Programmer[Programador\n(Xiaomi)]
+    User((Usuario)) --> |"1. Tarea"| Orchestrator["Orquestador<br/>(Qwen)"]
+    Orchestrator --> |"2. Especificaciones"| Programmer["Programador<br/>(Xiaomi)"]
     Programmer --> |"3. Código Generado"| Orchestrator
     Orchestrator --> |"4. Revisión"| Decision{¿Aprobado?}
     Decision --> |No| Programmer
