@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+env/
+.env
+
+# Sensitive Data
+data/.env
+data/browser_profile/
+data/kimi_cookies.json
+data/auth_token.txt
+data/last_login.txt

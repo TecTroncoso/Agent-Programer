@@ -1,0 +1,8 @@
+# Multi-Agent Workflow: Qwen + Xiaomi
+# CrewAI-based orchestration system
+
+crewai>=0.55.0
+httpx
+nodriver
+rich
+python-dotenv

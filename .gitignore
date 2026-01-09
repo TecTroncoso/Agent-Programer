@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+**/.env
+**/data/browser_profile/
+**/data/*.json
+**/data/*.txt
+**/data/cookies/
+
+# Editor
+.vscode/
+.idea/
+.qodo/
+
+# Testing
+.pytest_cache/
+coverage.xml
+
+# Project Specific
+test_login.py
+abrir_proyecto.bat
