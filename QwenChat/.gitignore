@@ -1,0 +1,36 @@
+# Python virtual environment
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor
+.qodo/
+.vscode/
+.idea/
+
+# Project specific
+abrir_proyecto.bat
+README.md
+Deploy.py
+Deploy2.py
+
+# Data folder (except .env.example)
+data/*
+!data/.env.example
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development
+.DS_Store
+Thumbs.db
